@@ -1,3 +1,10 @@
+/*"""
+Author: Prathmesh Phalke
+Created on: 04/22/2018
+Last Updated: 05/25/2018
+Description: This script can be used to compare list of database tables provided in the IN clause. And it will insert the result in
+the compare_result_table. 
+"""*/
 CREATE OR REPLACE PROCEDURE dbcompare AS
 
     v_table_name    VARCHAR2(2000);
